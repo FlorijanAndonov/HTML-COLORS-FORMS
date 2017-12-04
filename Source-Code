@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>HTML Colors</title>
+	</head>
+	<body>
+		<h1><b>HTML Colors</b></h1>
+		<hr>
+		<p><b>Colors redisplayed combining RED, GREEN, and BLUE light.</b></p>
+		<h2>TOC</h2>
+		<ol>
+			<a href="#PrvH2"><li>Color Values</li></a>
+			<a href="#VtorH2"><li>16 Millions Different Colors</li></a>
+			<a href="#TretH2"><li>Shades of Gray</li></a>
+			<a href="#ChetvrtH2"><li>Cross-Browser Color Names</li></a>
+			<a href="#PetH2"><li>Web Standard Color Names</li></a>
+			<a href="#ShestiH2"><li>Web Safe Colors?</li></a>
+		</ol>
+		
+		<h2 id="PrvH2">Color Values</h2>
+		
+		<p>HTML Colors are defined using a hexadecimal (hex) notation for the combination of Red, Green, and Blue color values(RGB). The lowest value that can<br>
+		be given to one of the light sources is 0(hex 00). The highest value is 255(hex FF). Hex values are written as 3 double digit numbers, starting with a #<br>
+		sign.</p>
+		
+		<h2 id="VtorH2">16 Millions Different Colors</h2>
+		
+		<p>The combination of Red, Green and blue values fo 0 to 255 gives a total of no more than 16 million different colors to play with (256x256x256). Most <br>
+		modern monitors are capable of displaying at least 16384 different colors. If you look at th color table below, you will see the result of varying the red<br>
+		light from 0 to 255, while keeping the green and blue light at zero.</p>
+		<!--In order to create TABLE in HTML you need the tag <table></table> . The attribute border is used to define the border of the table -->
+		<table border ="1">
+		<-- Tags <tr></tr> and <td></td> are utilized to show the value of a cell in specific row in HTML -->
+      <tr>
+				<td><b>Red Light</b></td>
+				<td><b>Color HEX</b></td>
+				<td><b>Color RGB</b></td>
+			</tr>
+			<tr>
+				<td style="background-color:#000000"></td>
+				<td>#000000</td>
+				<td>rgb(0,0,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color:#400000"></td>
+				<td>#400000</td>
+				<td>rgb(64,0,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color:#800000"></td>
+				<td>#800000</td>
+				<td>rgb(128,0,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color:#C00000"></td>
+				<td>#C00000</td>
+				<td>rgb(192,0,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color:#FF0000"></td>
+				<td>#FF0000</td>
+				<td>rgb(256,0,0)</td>
+			</tr>
+
+			</table>
+		
+		<h2 id="TretH2">Shades of Gray</h2>
+		
+		<p>Gray colors are displayed using an equal amount of ower to all of the light sources. To make it easier for you to select the right gray color we have<br>
+		compiled a table of gray shades for you:</p>
+		<!--In order to create TABLE in HTML you need the tag <table></table> . The attribute border is used to define the border of the table -->
+		<table border ="1">
+			<tr>
+				<td><b>Gray shades</b></td>
+				<td><b>Color HEX</b></td>
+				<td><b>Color RGB</b></td>
+			</tr>
+			<tr>
+				<td style="background-color:#000000"></td>
+				<td>#000000</td>
+				<td>rgb(0,0,0)</td>
+			</tr>
+			<tr>
+				<td style="background-color:#404040"></td>
+				<td>#404040</td>
+				<td>rgb(64,64,64)</td>
+			</tr>
+			<tr>
+				<td style="background-color:#808080"></td>
+				<td>#808080</td>
+				<td>rgb(128,128,128)</td>
+			</tr>
+			<tr>
+				<td style="background-color:#C0C0C0"></td>
+				<td>#C0C0C0</td>
+				<td>rgb(192,192,192)</td>
+			</tr>
+			<tr>
+				<td style="background-color:#FFFFFF"></td>
+				<td>#FFFFFF</td>
+				<td>rgb(256,256,256)</td>
+			</tr>
+
+			</table>
+		
+		
+		<h2 id="ChetvrtH2">Cross-Browser Color Names</h2>
+		
+		<p>A collection of nearly 150 color names are supported by all major browsers.</p>
+				
+		<h2 id="PetH2">Web Standard Color Names</h2>
+		
+		<p>The World Wide Web Consortium (W3C) has listed 16 valid color names for HTML and CSS:</p>
+		<ul style="list-style-type:square">
+			<li>aqua</li>
+			<li>black</li>
+			<li>blue</li>
+			<li>fuchisa</li>
+			<li>gray</li>
+			<li>green</li>
+			<li>etc</li>
+		</ul>
+		<p>If you want to use other colors, you should specify their HEX value.</p>
+		
+		<h2 id="ShestiH2">Web Safe Colors?</h2>
+		
+		<p>Some years ago, when computers supported max 256 different colors, a list of 216 "Web Safe Colors" was suggested as a Web standard, reserving 40 <br>
+		fixed system colors. The 216 cross-browser color palette was created to ensure that all computers would display the colors correctly when running a 256 <br>
+		color palette.</p>
+		
+		<h2>Dodadi boja</h2>
+		
+		<form>
+			Ime:<br> <input type="text" name="ime"/><br>
+			Tip:<br>
+			<input type="radio" name="Name" value="Name"/>Name<br>
+			<input type="radio" name="HEX" value="HEX"/>HEX<br>
+			<input type="radio" name="RGB" value="RGB"/>RGB<br>
+			Upotreba:<br> <input type="text" name="upotreba"/><br>
+			Web safe? <input type="checkbox" name="WebSafe" value="WebSafe"/>Yes<br>
+			
+			<button type="submit" value="Submit">Submit</button>
+			<button type="reset" value="Reset">Reset</button>
+			
+			
+		</form>
+		
+	</body> 
+	
+</html>
